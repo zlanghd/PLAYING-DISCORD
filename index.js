@@ -142,4 +142,4 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
   console.log('Server Online because of Axo Coder ✅!!');
 });
-bot.login(process.env.token) // Login To The User
+bot.login(config.token) // Login To The User
